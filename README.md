@@ -50,6 +50,15 @@ java -jar target\projeto-final.jar server
 java -jar target\projeto-final.jar client
 ```
 
+Caso não queira compilar, basta redirecionar os comandos para o executável disponibilizado na raiz do projeto.
+
+```bat
+:: Terminal 1 — servidor
+java -jar projeto-final.jar server
+
+:: Terminais 2, 3, ... — clientes
+java -jar projeto-final.jar client
+```
 Ou use os atalhos em `scripts\run-server.bat` e `scripts\run-client.bat`.
 
 No cliente: informe o **nome de contato** e o **servidor** (`localhost`), adicione amigos pelo
